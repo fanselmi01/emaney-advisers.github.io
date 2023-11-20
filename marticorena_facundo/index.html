@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="res/favico.ico" type="image/x-icon">
+    <title>Marticorena Facundo - Emaney Advisers</title>
+    <meta name="description" content="Creo en la importancia de una estrategia digital bien planificada y ejecutada para alcanzar el éxito en línea">
+    <meta name="robots" content="index, follow">
+</head>
+<body>
+    <div class="div-loader" id="loader">
+        <div class="loader centrado">
+            <div class="loader-square"></div>
+            <div class="loader-square"></div>
+            <div class="loader-square"></div>
+            <div class="loader-square"></div>
+            <div class="loader-square"></div>
+            <div class="loader-square"></div>
+            <div class="loader-square"></div>
+        </div>
+    </div>
+
+    <nav class="nav-bar">
+        <div class="container">
+            <div class="nav-logo-container">
+                <a href="#"><img class="nav-logo" src="res/logo.png" alt="Logo de Emaney Advisers"></a>
+                <div class="slogan" id="slogan">Calidad, el unico camino del crecimiento</div>
+            </div>   
+       
+            <div class="div-menu">
+                <input type="checkbox" id="drop-down-cbox"/>
+                <label for="drop-down-cbox">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>
+        
+                <ul class="main-nav small-caps">
+                    <li class="li-inicio"><a href="../../inicio/index.html">Inicio</a></li>
+                    <li><a href="../../consultoria_digital_/consultoria_digital.html">Consultoria Digital</a></li>
+                    <li><span class="li-fundadores" onclick="toggleSubMenu()">Fundadores</span>
+                        <ul class="sub-menu">
+                            <li><a href="../anselmi_franco/index.html">Anselmi, Franco</a></li>
+                            <li><a href="#">Marticorena, Facundo</a></li>
+                        </ul>
+                    </li>
+                    <li class="li-acerca"><a href="../../acerca_de_ea/index.html">Acerca de EA</a></li>
+                    <li class="li-contacto"><a href="../../contacto/index.html">Contacto</a></li>
+                    </ul>
+            </div>        
+        </div>
+    </nav>      
+
+    
+    <section class="section-banner">
+        <div class="banner-ppal">
+            <h1 class="h1">Marticorena, Facundo J.</h1>
+            <p class="p-h1">Co-Founder, Emaney Advisers</p>
+            <div class="div-banner-texto">
+                <div class="linea-vertical"></div>
+                <p class="p-banner">"Creo en la importancia de una estrategia digital bien planificada y ejecutada para alcanzar el éxito en línea."</p>
+            </div>
+
+            <div class="div-contenedor">
+                <div class="contenedor">
+                    <div class="circulo">
+                      <img class="icono-mail" src="icono.png" alt="Icono">
+                    </div>
+                </div>
+    
+                <div class="contenedor">
+                    <div class="circulo">
+                      <img class="icono-linkedin" src="icono.png" alt="Icono">
+                    </div>
+                </div>
+
+                <div class="contenedor">
+                    <div class="circulo">
+                      <img class="icono-instagram" src="icono.png" alt="Icono">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section >
+        <div class="div-texto">
+            <div class="parrafo-recortado" id="parrafo">
+                <p>
+                    Facundo Marticorena, cofundador de Emaney Advisers, ha construido su camino en el marketing digital con una mezcla única de pasión y visión estratégica. Con una sólida experiencia en el diseño de campañas efectivas, Facundo ha demostrado su habilidad para elevar marcas en el ámbito digital. Su compromiso con la innovación y la adaptabilidad a las últimas tendencias asegura que cada estrategia sea impactante y relevante en un entorno digital en constante cambio. Más allá de las campañas, Facundo comparte el objetivo de hacer que la presencia en línea de cada cliente sea auténtica y significativa.<br>Su dedicación va más allá de la implementación de estrategias, buscando constantemente formas de mejorar y optimizar, asegurando que cada cliente reciba una solución personalizada que no solo cumpla, sino que supere sus expectativas. Su enfoque colaborativo impulsa una comunicación abierta y constante, asegurando que cada cliente se sienta parte integral del proceso. Este enfoque no solo garantiza resultados exitosos, sino también relaciones duraderas basadas en la confianza y el éxito compartido.
+
+                    <span class="degradado"></span> <!-- Degradado para ocultar el texto -->
+                </p>
+            </div>
+            <p id="leer-mas" class="leer-mas" onclick="mostrarTextoCompleto()">Leer más</p>
+            <p id="leer-menos" class="leer-menos" onclick="ocultarTextoCompleto()">Leer menos</p>
+        </div>
+    </section>
+
+    <section>
+        <div class="div-h3">
+            <h3 class="h3">Contacta a Facundo</h3>
+            <div class="div-contenedor">
+                <div class="contenedor">
+                    <div class="circulo">
+                      <img class="icono-mail" src="icono.png" alt="Icono">
+                    </div>
+                </div>
+    
+                <div class="contenedor">
+                    <div class="circulo">
+                      <img class="icono-linkedin" src="icono.png" alt="Icono">
+                    </div>
+                </div>
+
+                <div class="contenedor">
+                    <div class="circulo">
+                      <img class="icono-instagram" src="icono.png" alt="Icono">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="contenedor-footer">
+            <div class="contenedor-contacto-footer">
+                <div class="contacto-footer">
+                    <img class="icono-contacto-location" src="img/iconos/ubicacion.png" alt="">
+                    <div class="padding-left-location">
+                        <p class="titulo-contacto">Ubicacion</p>
+                        <p>Lorem Ipsum 1234 - Buenos Aires</p>
+                    </div>
+                </div>
+                <div class="contacto-footer">
+                    <img class="icono-contacto" src="img/iconos/phone.png" alt="">
+                    <div class="padding-left">
+                        <p class="titulo-contacto">Telefono</p>
+                        <p>11 2345 6789</p>
+                    </div>
+                </div>
+                <div class="contacto-footer">
+                    <img class="icono-contacto" src="img/iconos/mail.png" alt="">
+                    <div class="padding-left mail-footer">
+                        <p class="titulo-contacto">Mail</p>
+                        <p>emaneyadviser@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="div-linea">
+                <div class="linea-horizontal"></div>
+            </div>
+    
+            <div class="contenedor-info">
+                <div class="centrar-footer">
+                    <div class="div-logo-footer">
+                        <img class="logo-footer" src="res/logo.png" alt="">
+                    </div>
+                </div>
+    
+                <div class="separacion-footer">
+                    <div class="contenedor-menu-footer">
+                        <h4>Consultoría Digital</h4>
+                        <div class="div-linea">
+                            <div class="subrayado-h4"></div>
+                        </div>
+                        <ul class="footer-ul">
+                            <li class="footer-ul-li"><a class="link-footer" href="">Sitio Web</a></li>
+                            <li class="footer-ul-li"><a class="link-footer" href="">Optimización SEO</a></li>
+                            <li class="footer-ul-li"><a class="link-footer" href="">Google Search</a></li>
+                            <li class="footer-ul-li"><a class="link-footer" href="">Redes Sociales</a></li>
+                        </ul>
+                    </div>
+                </div>
+    
+                <div class="separacion-footer">
+                    <div class="contenedor-menu-footer">
+                        <h4>Compañía</h4>
+                        <div class="div-linea">
+                            <div class="subrayado-h4"></div>
+                        </div>
+                        <ul class="footer-ul">
+                            <li class="footer-ul-li"><a class="link-footer" href="">Acerca de EA</a></li>
+                            <li class="footer-ul-li"><a class="link-footer" href="">Fundadores</a></li>
+                            <li class="footer-ul-li"><a class="link-footer" href="">Política de privacidad</a></li>
+                            <li class="footer-ul-li"><a class="link-footer" href="">Contacto</a></li>
+                        </ul>
+                    </div>
+                </div>
+                    
+                <div class="contenedor-menu-footer">
+                    <div>
+                        <h4>Síguenos</h4>
+                        <div class="div-linea">
+                            <div class="subrayado-h4"></div>
+                        </div>
+                        <div class="div-contenedor-icono">
+                            <div class="contenedor-icono">
+                                <div class="circulo-icono">
+                                  <img class="icono-instagram-footer" src="icono.png" alt="Icono">
+                                </div>
+                            </div>
+    
+                            <div class="contenedor-icono">
+                                <div class="circulo-icono">
+                                  <img class="icono-youtube-footer" src="icono.png" alt="Icono">
+                                </div>
+                            </div>
+    
+                            <div class="contenedor-icono">
+                                <div class="circulo-icono">
+                                  <img class="icono-linkedin-footer" src="icono.png" alt="Icono">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="footer-final">
+            <p>Copyright &copy; 2023 - Todos los derechos reservados por <a href="#">Emaney Advisers</a></p>
+        </div>
+    </footer>
+
+    <div class="cursor"></div>
+    <div class="cursor cursor2"></div>
+    
+    <script src="js/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</body>
+</html>
